@@ -12,6 +12,7 @@
 		11015262BF89658BA39763CD /* CLIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B748BE61BCE67F9FFA290F /* CLIAdapter.swift */; };
 		176184425DDFF50CDFDBF798 /* ReminderTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7E90BE0D7D2091B1CCEF4 /* ReminderTools.swift */; };
 		179C6CECF2C68463FBD15563 /* ClipboardTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715B9B2A4D212AE23C7AB7C /* ClipboardTools.swift */; };
+		197827D505D63546FE0027C3 /* OnboardingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF4DD9936ECEBB0E841368A /* OnboardingState.swift */; };
 		1CA8322C08F537782BEF3EF0 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD5769CAABE35903242BBD0 /* PermissionManager.swift */; };
 		20F5245849DF54014965508D /* NotificationTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B52E33415DD15D3BF337348 /* NotificationTools.swift */; };
 		3141D3FDC3D9F9D8D4BC2ED4 /* InterfaceServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95456CCE6DAC070C70596C4 /* InterfaceServer.swift */; };
@@ -25,6 +26,7 @@
 		6B69FD7CAA4254B609B2CCD0 /* SystemTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358253BBFC130F341F6E77BF /* SystemTools.swift */; };
 		6EAD74445BFA722AB529CD45 /* ToolRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76FEC174B07180D2722997 /* ToolRegistry.swift */; };
 		752A2B6569794F0763EB23ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000E86B58F850CBE01F4DED /* AppDelegate.swift */; };
+		77D60B7243FA294DC53575FC /* OnboardingStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53962DF326CE24857E5463B /* OnboardingStateTests.swift */; };
 		7A5D416A819B4DDF8ECD2DEF /* AppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50774FA8DB81C4902C0B4F /* AppTools.swift */; };
 		88A58657F865B8077B178219 /* AccessibilityTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50976661D5909F4CD2C2F4 /* AccessibilityTools.swift */; };
 		98D59D96EF09E24819858446 /* ServerStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC59945675E55369EAB326 /* ServerStatusBar.swift */; };
@@ -69,6 +71,7 @@
 		400B597A3A6059DF58553CD1 /* FileTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTools.swift; sourceTree = "<group>"; };
 		40CC59945675E55369EAB326 /* ServerStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerStatusBar.swift; sourceTree = "<group>"; };
 		4D50774FA8DB81C4902C0B4F /* AppTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTools.swift; sourceTree = "<group>"; };
+		5EF4DD9936ECEBB0E841368A /* OnboardingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingState.swift; sourceTree = "<group>"; };
 		641BA7669BD66ED18BFE8736 /* RunAssistantTaskIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunAssistantTaskIntent.swift; sourceTree = "<group>"; };
 		68519864CA90A6F21DD7D1C9 /* PlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTests.swift; sourceTree = "<group>"; };
 		6CF3A9C5E2EF4E7341DA790F /* CalendarTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTools.swift; sourceTree = "<group>"; };
@@ -83,6 +86,7 @@
 		BE3E4DE3DEF8D8488B20BEA3 /* PermissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionModel.swift; sourceTree = "<group>"; };
 		C1B2827E89777DC91D2B982C /* RunMCPToolIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunMCPToolIntent.swift; sourceTree = "<group>"; };
 		CF8853886E0EEEE86436E1CE /* OpenAIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAdapter.swift; sourceTree = "<group>"; };
+		D53962DF326CE24857E5463B /* OnboardingStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStateTests.swift; sourceTree = "<group>"; };
 		DF752738952A4577AD927084 /* OpenAPIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAPIAdapter.swift; sourceTree = "<group>"; };
 		E1B748BE61BCE67F9FFA290F /* CLIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIAdapter.swift; sourceTree = "<group>"; };
 		E2C46693956B20E14D77677C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				2989FC2A179CF6285A95D11F /* .gitkeep */,
+				5EF4DD9936ECEBB0E841368A /* OnboardingState.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 		5CF054CFCC47FD59775DDA1F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D53962DF326CE24857E5463B /* OnboardingStateTests.swift */,
 				68519864CA90A6F21DD7D1C9 /* PlaceholderTests.swift */,
 			);
 			path = Tests;
@@ -335,6 +341,7 @@
 				A587418041D61243752AAB0A /* MajordomoApp.swift in Sources */,
 				CB65E81D66E7D1ACEB02EEF7 /* MusicTools.swift in Sources */,
 				20F5245849DF54014965508D /* NotificationTools.swift in Sources */,
+				197827D505D63546FE0027C3 /* OnboardingState.swift in Sources */,
 				DFFD7FC94553606C49AEC90A /* OpenAIAdapter.swift in Sources */,
 				07EE8872A0A0E8D33D67019D /* OpenAPIAdapter.swift in Sources */,
 				4DD624363AFF5B01FC9D6424 /* PermissionDashboard.swift in Sources */,
@@ -364,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D60B7243FA294DC53575FC /* OnboardingStateTests.swift in Sources */,
 				D80426CFE28A11D811D19473 /* PlaceholderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
