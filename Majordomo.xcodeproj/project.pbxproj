@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00532DA84435EAAD436926A4 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C5A8EA17581B03E12A62A7 /* OnboardingFlowView.swift */; };
+		01070F4CC1028E511C4A8832 /* SystemToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AD3FFFD131BD6BA12B60D6 /* SystemToolsTests.swift */; };
 		06C8996A50A852F902A898B3 /* ScriptModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3140BD6BFA33183808E255E4 /* ScriptModels.swift */; };
 		07EE8872A0A0E8D33D67019D /* OpenAPIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF752738952A4577AD927084 /* OpenAPIAdapter.swift */; };
 		0937C4BD01AAC239DE71AE59 /* EndpointManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFFF4FDDAB0AC843D205AF /* EndpointManifest.swift */; };
@@ -111,6 +112,7 @@
 		3E50976661D5909F4CD2C2F4 /* AccessibilityTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTools.swift; sourceTree = "<group>"; };
 		400B597A3A6059DF58553CD1 /* FileTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTools.swift; sourceTree = "<group>"; };
 		40CC59945675E55369EAB326 /* ServerStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerStatusBar.swift; sourceTree = "<group>"; };
+		43AD3FFFD131BD6BA12B60D6 /* SystemToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemToolsTests.swift; sourceTree = "<group>"; };
 		4D0D4F51F9B423DF7548970E /* EndpointManifestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointManifestTests.swift; sourceTree = "<group>"; };
 		4D50774FA8DB81C4902C0B4F /* AppTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTools.swift; sourceTree = "<group>"; };
 		54DDCFC1CBF3F1277D65EB4D /* VoiceSessionManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSessionManagerTests.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				286DF6FF7F37CF5868A59933 /* ScriptToolsTests.swift */,
 				836AAD35A4DE04B051C13190 /* SpeechRecognitionServiceTests.swift */,
 				B35D8973A7D2FF546F64E6CF /* SpeechResponseServiceTests.swift */,
+				43AD3FFFD131BD6BA12B60D6 /* SystemToolsTests.swift */,
 				A82638024709614581CD6A4C /* VoiceInputStateTests.swift */,
 				54DDCFC1CBF3F1277D65EB4D /* VoiceSessionManagerTests.swift */,
 			);
@@ -515,6 +518,7 @@
 				783340676798EBF80254F1D1 /* ScriptToolsTests.swift in Sources */,
 				35A7536BC77A6787C76544DE /* SpeechRecognitionServiceTests.swift in Sources */,
 				205D9AC40DFBB43DA71F0CF5 /* SpeechResponseServiceTests.swift in Sources */,
+				01070F4CC1028E511C4A8832 /* SystemToolsTests.swift in Sources */,
 				2BE62396E88112B6BBB1AFBC /* VoiceInputStateTests.swift in Sources */,
 				C9F328DEBCF32DEC1344A571 /* VoiceSessionManagerTests.swift in Sources */,
 			);
