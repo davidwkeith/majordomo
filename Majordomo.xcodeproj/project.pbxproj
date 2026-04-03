@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00532DA84435EAAD436926A4 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C5A8EA17581B03E12A62A7 /* OnboardingFlowView.swift */; };
 		07EE8872A0A0E8D33D67019D /* OpenAPIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF752738952A4577AD927084 /* OpenAPIAdapter.swift */; };
 		0D8016AC019CA37C28E1E98C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C46693956B20E14D77677C /* ContentView.swift */; };
 		11015262BF89658BA39763CD /* CLIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B748BE61BCE67F9FFA290F /* CLIAdapter.swift */; };
@@ -28,6 +29,7 @@
 		6EAD74445BFA722AB529CD45 /* ToolRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76FEC174B07180D2722997 /* ToolRegistry.swift */; };
 		752A2B6569794F0763EB23ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000E86B58F850CBE01F4DED /* AppDelegate.swift */; };
 		77D60B7243FA294DC53575FC /* OnboardingStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53962DF326CE24857E5463B /* OnboardingStateTests.swift */; };
+		7963766D5BCAE391D5FFAD27 /* OnboardingConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA891BCD8C63E9453E4F1E60 /* OnboardingConnectView.swift */; };
 		7A5D416A819B4DDF8ECD2DEF /* AppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50774FA8DB81C4902C0B4F /* AppTools.swift */; };
 		88A58657F865B8077B178219 /* AccessibilityTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50976661D5909F4CD2C2F4 /* AccessibilityTools.swift */; };
 		98D59D96EF09E24819858446 /* ServerStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC59945675E55369EAB326 /* ServerStatusBar.swift */; };
@@ -36,12 +38,14 @@
 		A745567EC8DE540C5E3CE2E0 /* MCPClientPatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33799A0D510B33E8863B38 /* MCPClientPatcherTests.swift */; };
 		B45A204892D855E536AADD69 /* MCPClientDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED69BC6F2B4D33CD7C754CD0 /* MCPClientDetectorTests.swift */; };
 		B656E577B9501A1961E5F7A3 /* PermissionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965C963A6B21B40947825C6 /* PermissionRow.swift */; };
+		BAB28EA1A86E8EDF76A6D2D3 /* OnboardingWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA17F56F0C7D0428E21243D2 /* OnboardingWelcomeView.swift */; };
 		CB65E81D66E7D1ACEB02EEF7 /* MusicTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A4562C5B63C43BA034F86 /* MusicTools.swift */; };
 		CBA154B818901A00BB139606 /* MCPClientPatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039C29D8C4D018F59D5188AF /* MCPClientPatcher.swift */; };
 		D2219132FCF1434E034B6E43 /* PermissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3E4DE3DEF8D8488B20BEA3 /* PermissionModel.swift */; };
 		D710786DF7C0C6FAD8FA1222 /* RunMCPToolIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2827E89777DC91D2B982C /* RunMCPToolIntent.swift */; };
 		D80426CFE28A11D811D19473 /* PlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68519864CA90A6F21DD7D1C9 /* PlaceholderTests.swift */; };
 		DFFD7FC94553606C49AEC90A /* OpenAIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8853886E0EEEE86436E1CE /* OpenAIAdapter.swift */; };
+		EC2AF8CE1DD75007EAB332DA /* OnboardingTryItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE867B66C5ADE9E233D4E8F /* OnboardingTryItView.swift */; };
 		F9BFA001D67D050E9B5F1800 /* FileTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B597A3A6059DF58553CD1 /* FileTools.swift */; };
 		FC91875B34842542740DF72E /* ScriptTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85345114E7E997178CD073AC /* ScriptTools.swift */; };
 		FF22F8C473C3038A72577D66 /* MacOSCoworkerPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEB6A34B62400C54C3F41D /* MacOSCoworkerPrompt.swift */; };
@@ -77,6 +81,7 @@
 		400B597A3A6059DF58553CD1 /* FileTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTools.swift; sourceTree = "<group>"; };
 		40CC59945675E55369EAB326 /* ServerStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerStatusBar.swift; sourceTree = "<group>"; };
 		4D50774FA8DB81C4902C0B4F /* AppTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTools.swift; sourceTree = "<group>"; };
+		5CE867B66C5ADE9E233D4E8F /* OnboardingTryItView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTryItView.swift; sourceTree = "<group>"; };
 		5EF4DD9936ECEBB0E841368A /* OnboardingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingState.swift; sourceTree = "<group>"; };
 		641BA7669BD66ED18BFE8736 /* RunAssistantTaskIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunAssistantTaskIntent.swift; sourceTree = "<group>"; };
 		68519864CA90A6F21DD7D1C9 /* PlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTests.swift; sourceTree = "<group>"; };
@@ -84,6 +89,7 @@
 		722F72B1B14608F3F083D672 /* Majordomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Majordomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85345114E7E997178CD073AC /* ScriptTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptTools.swift; sourceTree = "<group>"; };
 		8FDB3614E5A6092F3A8CB64F /* majordomo-cli */ = {isa = PBXFileReference; includeInIndex = 0; path = "majordomo-cli"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C5A8EA17581B03E12A62A7 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
 		9833B40BDFBF166369F0CEBC /* GetStatusIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStatusIntent.swift; sourceTree = "<group>"; };
 		A23A5B20B90A5D57EF4A0062 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A95456CCE6DAC070C70596C4 /* InterfaceServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceServer.swift; sourceTree = "<group>"; };
@@ -91,6 +97,7 @@
 		B5C6896D1763DE9143F7DE6C /* MajordomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajordomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3E4DE3DEF8D8488B20BEA3 /* PermissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionModel.swift; sourceTree = "<group>"; };
 		C1B2827E89777DC91D2B982C /* RunMCPToolIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunMCPToolIntent.swift; sourceTree = "<group>"; };
+		CA17F56F0C7D0428E21243D2 /* OnboardingWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWelcomeView.swift; sourceTree = "<group>"; };
 		CF8853886E0EEEE86436E1CE /* OpenAIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAdapter.swift; sourceTree = "<group>"; };
 		D53962DF326CE24857E5463B /* OnboardingStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStateTests.swift; sourceTree = "<group>"; };
 		DF752738952A4577AD927084 /* OpenAPIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAPIAdapter.swift; sourceTree = "<group>"; };
@@ -100,6 +107,7 @@
 		EBD5769CAABE35903242BBD0 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
 		ED69BC6F2B4D33CD7C754CD0 /* MCPClientDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCPClientDetectorTests.swift; sourceTree = "<group>"; };
 		EE47FB223D167B4D73954CFC /* PermissionDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionDashboard.swift; sourceTree = "<group>"; };
+		FA891BCD8C63E9453E4F1E60 /* OnboardingConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingConnectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -126,6 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				E2C46693956B20E14D77677C /* ContentView.swift */,
+				FA891BCD8C63E9453E4F1E60 /* OnboardingConnectView.swift */,
+				91C5A8EA17581B03E12A62A7 /* OnboardingFlowView.swift */,
+				5CE867B66C5ADE9E233D4E8F /* OnboardingTryItView.swift */,
+				CA17F56F0C7D0428E21243D2 /* OnboardingWelcomeView.swift */,
 				EE47FB223D167B4D73954CFC /* PermissionDashboard.swift */,
 				0965C963A6B21B40947825C6 /* PermissionRow.swift */,
 				40CC59945675E55369EAB326 /* ServerStatusBar.swift */,
@@ -355,7 +367,11 @@
 				A587418041D61243752AAB0A /* MajordomoApp.swift in Sources */,
 				CB65E81D66E7D1ACEB02EEF7 /* MusicTools.swift in Sources */,
 				20F5245849DF54014965508D /* NotificationTools.swift in Sources */,
+				7963766D5BCAE391D5FFAD27 /* OnboardingConnectView.swift in Sources */,
+				00532DA84435EAAD436926A4 /* OnboardingFlowView.swift in Sources */,
 				197827D505D63546FE0027C3 /* OnboardingState.swift in Sources */,
+				EC2AF8CE1DD75007EAB332DA /* OnboardingTryItView.swift in Sources */,
+				BAB28EA1A86E8EDF76A6D2D3 /* OnboardingWelcomeView.swift in Sources */,
 				DFFD7FC94553606C49AEC90A /* OpenAIAdapter.swift in Sources */,
 				07EE8872A0A0E8D33D67019D /* OpenAPIAdapter.swift in Sources */,
 				4DD624363AFF5B01FC9D6424 /* PermissionDashboard.swift in Sources */,
