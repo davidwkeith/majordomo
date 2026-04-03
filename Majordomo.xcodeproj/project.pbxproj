@@ -34,11 +34,22 @@
 		CB65E81D66E7D1ACEB02EEF7 /* MusicTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A4562C5B63C43BA034F86 /* MusicTools.swift */; };
 		D2219132FCF1434E034B6E43 /* PermissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3E4DE3DEF8D8488B20BEA3 /* PermissionModel.swift */; };
 		D710786DF7C0C6FAD8FA1222 /* RunMCPToolIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2827E89777DC91D2B982C /* RunMCPToolIntent.swift */; };
+		D80426CFE28A11D811D19473 /* PlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68519864CA90A6F21DD7D1C9 /* PlaceholderTests.swift */; };
 		DFFD7FC94553606C49AEC90A /* OpenAIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8853886E0EEEE86436E1CE /* OpenAIAdapter.swift */; };
 		F9BFA001D67D050E9B5F1800 /* FileTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B597A3A6059DF58553CD1 /* FileTools.swift */; };
 		FC91875B34842542740DF72E /* ScriptTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85345114E7E997178CD073AC /* ScriptTools.swift */; };
 		FF22F8C473C3038A72577D66 /* MacOSCoworkerPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CEB6A34B62400C54C3F41D /* MacOSCoworkerPrompt.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46B9D17C3B29F1F07B3607B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DA16AFD2DA8C42F9ABD41FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D9DB08FC5E445AE475E946C;
+			remoteInfo = Majordomo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03D03FABA9DD3B6C8E42B6AC /* MajordomoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajordomoApp.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		10F7E90BE0D7D2091B1CCEF4 /* ReminderTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTools.swift; sourceTree = "<group>"; };
 		1221C8FFA472712CE79B83F2 /* ContactsTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTools.swift; sourceTree = "<group>"; };
 		28B7D3903C3A9D5C00C04F57 /* ShortcutsTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsTools.swift; sourceTree = "<group>"; };
+		2989FC2A179CF6285A95D11F /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		2B76FEC174B07180D2722997 /* ToolRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolRegistry.swift; sourceTree = "<group>"; };
 		2E7A4562C5B63C43BA034F86 /* MusicTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTools.swift; sourceTree = "<group>"; };
 		358253BBFC130F341F6E77BF /* SystemTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTools.swift; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 		40CC59945675E55369EAB326 /* ServerStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerStatusBar.swift; sourceTree = "<group>"; };
 		4D50774FA8DB81C4902C0B4F /* AppTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTools.swift; sourceTree = "<group>"; };
 		641BA7669BD66ED18BFE8736 /* RunAssistantTaskIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunAssistantTaskIntent.swift; sourceTree = "<group>"; };
+		68519864CA90A6F21DD7D1C9 /* PlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTests.swift; sourceTree = "<group>"; };
 		6CF3A9C5E2EF4E7341DA790F /* CalendarTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTools.swift; sourceTree = "<group>"; };
 		722F72B1B14608F3F083D672 /* Majordomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Majordomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85345114E7E997178CD073AC /* ScriptTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptTools.swift; sourceTree = "<group>"; };
@@ -66,6 +79,7 @@
 		A23A5B20B90A5D57EF4A0062 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A95456CCE6DAC070C70596C4 /* InterfaceServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceServer.swift; sourceTree = "<group>"; };
 		B000E86B58F850CBE01F4DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5C6896D1763DE9143F7DE6C /* MajordomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajordomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3E4DE3DEF8D8488B20BEA3 /* PermissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionModel.swift; sourceTree = "<group>"; };
 		C1B2827E89777DC91D2B982C /* RunMCPToolIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunMCPToolIntent.swift; sourceTree = "<group>"; };
 		CF8853886E0EEEE86436E1CE /* OpenAIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAdapter.swift; sourceTree = "<group>"; };
@@ -83,6 +97,14 @@
 				2B76FEC174B07180D2722997 /* ToolRegistry.swift */,
 			);
 			path = Registry;
+			sourceTree = "<group>";
+		};
+		0BE8C5919EF425BADCB23597 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2989FC2A179CF6285A95D11F /* .gitkeep */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		412010FB011737A1BF214E50 /* UI */ = {
@@ -105,11 +127,20 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		5CF054CFCC47FD59775DDA1F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				68519864CA90A6F21DD7D1C9 /* PlaceholderTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		6AF44C2D089E79AED7019BDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				8FDB3614E5A6092F3A8CB64F /* majordomo-cli */,
 				722F72B1B14608F3F083D672 /* Majordomo.app */,
+				B5C6896D1763DE9143F7DE6C /* MajordomoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,10 +151,12 @@
 				4D41DF401749D31840B07DCA /* App */,
 				E7726D8E8779CE37FDBCC7E1 /* CLI */,
 				8A1111CFAD9D8F1DA533A2BD /* Intents */,
+				0BE8C5919EF425BADCB23597 /* Onboarding */,
 				C28921B8B3DD4295CC6444BA /* Permissions */,
 				D8A34516E542139C721F46F9 /* Prompts */,
 				04B323A95E3E28AAD329A41E /* Registry */,
 				A63D502B224B3266D39E5DED /* Server */,
+				5CF054CFCC47FD59775DDA1F /* Tests */,
 				B6BE7F964A03C226320433CC /* Tools */,
 				412010FB011737A1BF214E50 /* UI */,
 				6AF44C2D089E79AED7019BDE /* Products */,
@@ -233,6 +266,24 @@
 			productReference = 722F72B1B14608F3F083D672 /* Majordomo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CB77DA92B3BBA80700403385 /* MajordomoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A893AD6A2C3C3179F31FCF87 /* Build configuration list for PBXNativeTarget "MajordomoTests" */;
+			buildPhases = (
+				FC2C6340F9B151FD3041AD51 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392547801195F669316DAE7C /* PBXTargetDependency */,
+			);
+			name = MajordomoTests;
+			packageProductDependencies = (
+			);
+			productName = MajordomoTests;
+			productReference = B5C6896D1763DE9143F7DE6C /* MajordomoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -257,6 +308,7 @@
 			projectRoot = "";
 			targets = (
 				2D9DB08FC5E445AE475E946C /* Majordomo */,
+				CB77DA92B3BBA80700403385 /* MajordomoTests */,
 				1A0779CCDEB72FE4FDE9D756 /* majordomo-cli */,
 			);
 		};
@@ -308,7 +360,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC2C6340F9B151FD3041AD51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80426CFE28A11D811D19473 /* PlaceholderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392547801195F669316DAE7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D9DB08FC5E445AE475E946C /* Majordomo */;
+			targetProxy = 46B9D17C3B29F1F07B3607B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0D8D0B475F03B0F638736325 /* Debug */ = {
@@ -326,6 +394,23 @@
 				SDKROOT = macosx;
 			};
 			name = Debug;
+		};
+		1AFDEC295E6FFC8E3E30DD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.majordomo.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Majordomo.app/Contents/MacOS/Majordomo";
+			};
+			name = Release;
 		};
 		340FD92D474B5B6BEAE1C7A3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -382,6 +467,23 @@
 				SWIFT_VERSION = 6;
 			};
 			name = Release;
+		};
+		6C5C19130AFD7B78058D51AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.majordomo.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Majordomo.app/Contents/MacOS/Majordomo";
+			};
+			name = Debug;
 		};
 		89FC8AEBFDDFB2221FC473DD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -510,6 +612,15 @@
 			buildConfigurations = (
 				A23908633E344665706741E6 /* Debug */,
 				340FD92D474B5B6BEAE1C7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A893AD6A2C3C3179F31FCF87 /* Build configuration list for PBXNativeTarget "MajordomoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C5C19130AFD7B78058D51AE /* Debug */,
+				1AFDEC295E6FFC8E3E30DD2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

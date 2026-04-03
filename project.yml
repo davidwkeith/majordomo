@@ -18,6 +18,7 @@ targets:
     platform: macOS
     sources:
       - path: App
+      - path: Onboarding
       - path: Server
       - path: Registry
       - path: Tools
@@ -34,6 +35,18 @@ targets:
         GENERATE_INFOPLIST_FILE: "YES"
         INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.utilities"
         INFOPLIST_KEY_CFBundleDisplayName: Majordomo
+
+  MajordomoTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: Tests
+    dependencies:
+      - target: Majordomo
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.majordomo.tests
+        GENERATE_INFOPLIST_FILE: "YES"
 
   majordomo-cli:
     type: tool
