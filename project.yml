@@ -26,6 +26,7 @@ targets:
       - path: Intents
       - path: Permissions
       - path: UI
+      - path: Plugins
       - path: Voice
     settings:
       base:
