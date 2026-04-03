@@ -26,6 +26,7 @@ targets:
       - path: Intents
       - path: Permissions
       - path: UI
+      - path: Voice
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: app.majordomo
@@ -35,6 +36,8 @@ targets:
         GENERATE_INFOPLIST_FILE: "YES"
         INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.utilities"
         INFOPLIST_KEY_CFBundleDisplayName: Majordomo
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "Majordomo needs microphone access for voice input."
+        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: "Majordomo uses on-device speech recognition for voice commands."
 
   MajordomoTests:
     type: bundle.unit-test
