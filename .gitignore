@@ -1,0 +1,15 @@
+# Xcode
+Majordomo.xcodeproj/xcuserdata/
+Majordomo.xcodeproj/project.xcworkspace/xcuserdata/
+Majordomo.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# Build
+build/
+DerivedData/
+*.xcresult
+
+# macOS
+.DS_Store
+
+# XcodeGen — project is regenerable
+# Majordomo.xcodeproj/

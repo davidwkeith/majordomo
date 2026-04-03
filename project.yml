@@ -1,0 +1,48 @@
+name: Majordomo
+options:
+  bundleIdPrefix: app
+  deploymentTarget:
+    macOS: "26.0"
+  xcodeVersion: "26.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6"
+    MACOSX_DEPLOYMENT_TARGET: "26.0"
+
+targets:
+  Majordomo:
+    type: application
+    platform: macOS
+    sources:
+      - path: App
+      - path: Server
+      - path: Registry
+      - path: Tools
+      - path: Prompts
+      - path: Intents
+      - path: Permissions
+      - path: UI
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.majordomo
+        CODE_SIGN_ENTITLEMENTS: Majordomo.entitlements
+        INFOPLIST_GENERATION_MODE: GeneratedByXcode
+        PRODUCT_NAME: Majordomo
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.utilities"
+        INFOPLIST_KEY_CFBundleDisplayName: Majordomo
+
+  majordomo-cli:
+    type: tool
+    platform: macOS
+    sources:
+      - path: CLI
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.majordomo.cli
+        PRODUCT_NAME: majordomo
+        INFOPLIST_GENERATION_MODE: GeneratedByXcode
+        GENERATE_INFOPLIST_FILE: "YES"
