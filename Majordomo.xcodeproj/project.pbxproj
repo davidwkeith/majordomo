@@ -23,6 +23,7 @@
 		5C9BE72FD1D4008AC50BF67B /* RunAssistantTaskIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641BA7669BD66ED18BFE8736 /* RunAssistantTaskIntent.swift */; };
 		5D25095127BFE332994AB54B /* ContactsTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221C8FFA472712CE79B83F2 /* ContactsTools.swift */; };
 		6459BB8E344D4DA5365F85D0 /* CalendarTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF3A9C5E2EF4E7341DA790F /* CalendarTools.swift */; };
+		6611FF8F22753CEB0D5DE48D /* MCPClientDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D2CBB27E2AD6A897E50ABD /* MCPClientDetector.swift */; };
 		6B69FD7CAA4254B609B2CCD0 /* SystemTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358253BBFC130F341F6E77BF /* SystemTools.swift */; };
 		6EAD74445BFA722AB529CD45 /* ToolRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76FEC174B07180D2722997 /* ToolRegistry.swift */; };
 		752A2B6569794F0763EB23ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000E86B58F850CBE01F4DED /* AppDelegate.swift */; };
@@ -32,6 +33,7 @@
 		98D59D96EF09E24819858446 /* ServerStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC59945675E55369EAB326 /* ServerStatusBar.swift */; };
 		A21A8397FC4DFB8EC943E8B6 /* GetStatusIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9833B40BDFBF166369F0CEBC /* GetStatusIntent.swift */; };
 		A587418041D61243752AAB0A /* MajordomoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D03FABA9DD3B6C8E42B6AC /* MajordomoApp.swift */; };
+		B45A204892D855E536AADD69 /* MCPClientDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED69BC6F2B4D33CD7C754CD0 /* MCPClientDetectorTests.swift */; };
 		B656E577B9501A1961E5F7A3 /* PermissionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965C963A6B21B40947825C6 /* PermissionRow.swift */; };
 		CB65E81D66E7D1ACEB02EEF7 /* MusicTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A4562C5B63C43BA034F86 /* MusicTools.swift */; };
 		D2219132FCF1434E034B6E43 /* PermissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3E4DE3DEF8D8488B20BEA3 /* PermissionModel.swift */; };
@@ -90,7 +92,9 @@
 		DF752738952A4577AD927084 /* OpenAPIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAPIAdapter.swift; sourceTree = "<group>"; };
 		E1B748BE61BCE67F9FFA290F /* CLIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIAdapter.swift; sourceTree = "<group>"; };
 		E2C46693956B20E14D77677C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2D2CBB27E2AD6A897E50ABD /* MCPClientDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCPClientDetector.swift; sourceTree = "<group>"; };
 		EBD5769CAABE35903242BBD0 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		ED69BC6F2B4D33CD7C754CD0 /* MCPClientDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCPClientDetectorTests.swift; sourceTree = "<group>"; };
 		EE47FB223D167B4D73954CFC /* PermissionDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionDashboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				2989FC2A179CF6285A95D11F /* .gitkeep */,
+				E2D2CBB27E2AD6A897E50ABD /* MCPClientDetector.swift */,
 				5EF4DD9936ECEBB0E841368A /* OnboardingState.swift */,
 			);
 			path = Onboarding;
@@ -135,6 +140,7 @@
 		5CF054CFCC47FD59775DDA1F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				ED69BC6F2B4D33CD7C754CD0 /* MCPClientDetectorTests.swift */,
 				D53962DF326CE24857E5463B /* OnboardingStateTests.swift */,
 				68519864CA90A6F21DD7D1C9 /* PlaceholderTests.swift */,
 			);
@@ -337,6 +343,7 @@
 				A21A8397FC4DFB8EC943E8B6 /* GetStatusIntent.swift in Sources */,
 				3141D3FDC3D9F9D8D4BC2ED4 /* InterfaceServer.swift in Sources */,
 				360D50097220E92D7728AD76 /* MCPAdapter.swift in Sources */,
+				6611FF8F22753CEB0D5DE48D /* MCPClientDetector.swift in Sources */,
 				FF22F8C473C3038A72577D66 /* MacOSCoworkerPrompt.swift in Sources */,
 				A587418041D61243752AAB0A /* MajordomoApp.swift in Sources */,
 				CB65E81D66E7D1ACEB02EEF7 /* MusicTools.swift in Sources */,
@@ -371,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45A204892D855E536AADD69 /* MCPClientDetectorTests.swift in Sources */,
 				77D60B7243FA294DC53575FC /* OnboardingStateTests.swift in Sources */,
 				D80426CFE28A11D811D19473 /* PlaceholderTests.swift in Sources */,
 			);
